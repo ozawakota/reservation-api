@@ -4,6 +4,10 @@ Python でデータベースを扱う
 
 SQLAlchemy
 
+## 起動
+
+- ローカル
+
 ## DB 設定
 
 ---
@@ -67,3 +71,7 @@ SQLAlchemy
 #### Delete
 
 なし
+
+## チュートリアル
+
+https://fastapi.tiangolo.com/ja/tutorial/sql-databases/
