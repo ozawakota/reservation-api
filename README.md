@@ -4,9 +4,21 @@ Python でデータベースを扱う
 
 SQLAlchemy
 
+## 参照
+
 ## 起動
 
-- ローカル
+▼ アプリケーション (front)
+
+```bash
+streamlit run app.py # http://192.168.100.6:8501 or http://localhost:8501
+```
+
+▼ API(ローカル)
+
+```bash
+uvicorn main:app --reload # http://127.0.0.1:8000
+```
 
 ## DB 設定
 
@@ -74,4 +86,10 @@ SQLAlchemy
 
 ## チュートリアル
 
+FastAPI
+
 https://fastapi.tiangolo.com/ja/tutorial/sql-databases/
+
+streamlit
+
+https://docs.streamlit.io/library/api-reference
