@@ -17,7 +17,7 @@ streamlit run app.py # http://192.168.100.6:8501 or http://localhost:8501
 ▼ API(ローカル)
 
 ```bash
-uvicorn main:app --reload # http://127.0.0.1:8000
+uvicorn sql_app.main:app --reload # http://127.0.0.1:8000
 ```
 
 ## DB 設定
